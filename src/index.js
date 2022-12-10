@@ -1,1 +1,5 @@
-console.log("123");
+import './style.css';
+
+export default function sum(a, b) {
+  return a + b;
+}
