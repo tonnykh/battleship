@@ -1,4 +1,4 @@
-const ship = (length) => {
+const Ship = (length) => {
   let hits = 0;
   const hit = () => hits++;
   const isSunk = () => hits === length;
@@ -7,4 +7,4 @@ const ship = (length) => {
   };
 };
 
-export default ship;
+export default Ship;
